@@ -51,7 +51,7 @@ client.on('ready', () => {
   });
 });
 
-client.login('process.env.ODM2NjMyMTQxOTkwMTk5Mjk2.YIg0Zg.1J6k32LHUtPffnSmSxI9HBnkWjU');
+client.login('process.env.TOKEN');
 
 client.on('message', msg => {
   if (msg.content === 'bonjour') {
